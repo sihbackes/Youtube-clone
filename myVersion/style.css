@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  height: 100%;
+}
+
+.main {
+  width: 100%;
+}
+
+.topbar {
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content {
+  height: 100%;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-icon {
+  height: 16vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 2em;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.sidebar-icon ion-icon {
+  font-size: 2em;
+}
+
+.sidebar-icon p {
+  margin: 0;
+}
+
+.logo {
+  height: 50%;
+}
+
+.search-wrapper {
+  display: flex;
+  height: 50%;
+}
+
+.mic-icon {
+  align-self: center;
+  font-size: 1.5em;
+  padding: 0 0.5em;
+}
+
+.search-btn {
+  display: flex;
+  align-items: center;
+  padding: 1em;
+}
+
+.right-icons-wrapper {
+  display: flex;
+}
+
+.right-icons-wrapper ion-icon {
+  font-size: 2em;
+  padding: 0 0.5em;
+}
+
+.search-wrapper input {
+  padding-left: 1em;
+}
+
+.main-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content-box {
+  width: 300px;
+  height: 230px;
+  padding: 1em;
+}
+
+.thumbnail {
+ width: 300px;
+}
+
+.epicode-logo {
+  width: 40px; 
+  padding: 0.5em;
+ }
+.box-logo-title {
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  margin: 0; 
+  font-size: 1em;
+ }
+ 
+p {
+  margin: 0;
+  font-size: 0.8em
+}
